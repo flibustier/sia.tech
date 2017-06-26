@@ -3,10 +3,10 @@
   translation: "À propos"
 
 - id: title_apps
-  translation: "Download" # TODO: i18n: translate this
+  translation: "Télécharger"
 
 - id: title_faq
-  translation: "FAQ" # TODO: i18n: is this translation okay?
+  translation: "FAQ"
 
 - id: title_getsiacoin
   translation: "Obtenez des Siacoin"
@@ -34,13 +34,13 @@
   translation: "Livre blanc"
 
 - id: discover_blog
-  translation: "Blog" # TODO: i18n: is this translation okay?
+  translation: "Blog"
 
 - id: discover_explorer
   translation: "Blockchain Explorateur"
 
 - id: discover_devdocs
-  translation: "Docs du Développeur"
+  translation: "Docs du développeur"
 
 ### footer ###
 - id: footer_navheader
@@ -50,13 +50,13 @@
   translation: "En savoir plus sur Sia"
 
 - id: footer_docs
-  translation: "Docs" # TODO: i18n: is this translation okay?
+  translation: "Docs"
 
 - id: footer_blog
-  translation: "Blog" # TODO: i18n: is this translation okay?
+  translation: "Blog"
 
 - id: footer_forum
-  translation: "Forum" # TODO: i18n: is this translation okay?
+  translation: "Forum"
 
 - id: footer_siatalk
   translation: "#siatalk sur irc.freenode.net"
@@ -68,7 +68,7 @@
   translation: "Questions sur Sia? Entrer en contact!"
 
 - id: footer_contact
-  translation: "Contact" # TODO: is this translation okay?
+  translation: "Contact"
 
 - id: footer_like
   translation: "Aimez-nous"
@@ -195,7 +195,7 @@
 
 ### contact ###
 - id: about_contact
-  translation: "Contact" # TODO: i18n: is this translation okay?
+  translation: "Contact"
 
 
 # URL: /about/milestones.html
@@ -223,10 +223,10 @@
   translation: "Juin 2016: Sia Version 1"
 
 - id: milestones_exchanges
-  translation: "Julliet 2016: Sia sur Poloniex, YUNBI, Bitsquare, et ShapeShift"
+  translation: "Juillet 2016: Sia sur Poloniex, YUNBI, Bitsquare, et ShapeShift"
 
 - id: milestones_funding2016
-  translation: "August 2016: Nebulous Raises $750k for Sia" # TODO: i18n: translate this
+  translation: "Août 2016: Nebulous lève 750 000 $ pour Sia"
 
 
 # URL: /apps/index.html
@@ -238,19 +238,19 @@
   translation: "Sia-UI (LTS)"
 
 - id: apps_uisubheader
-  translation: "For users" # TODO: translate
+  translation: "Pour les utilisateurs"
 
 - id: apps_daemonheader
-  translation: "Sia Daemon"
+  translation: "Daemon Sia"
 
 - id: apps_daemonheaderlts
-  translation: "Sia Daemon (LTS)"
+  translation: "Daemon Sia (LTS)"
 
 - id: apps_daemonsubheader
-  translation: "For developers" # TODO: translate
+  translation: "Pour les développeurs"
 
 - id: apps_minerheader
-  translation: "Miners" # TODO: translate
+  translation: "Mineurs"
 
 ### miner ###
 - id: apps_download
@@ -260,16 +260,16 @@
   translation: "Mineur"
 
 - id: apps_miner1
-  translation: "The official GPU miner" # TODO: translate
+  translation: "Le mineur GPU officiel"
 
 - id: apps_altminer
-  translation: "Mineur Alterné"
+  translation: "Mineur Alternatif"
 
 - id: apps_altminer1
   translation: "Un mineur de GPU pour Sia en Go"
 
 - id: apps_sourcecode
-  translation: "Source code on GitHub" # TODO: translate
+  translation: "Code source sur GitHub"
 
 ### built on sia ###
 - id: apps_builtheader
@@ -282,16 +282,16 @@
   translation: "Sia Blockchain Explorateur"
 
 - id: apps_minebox
-  translation: "Next generation NAS powered by Sia" # TODO: translate
+  translation: "Nouvelle génération de NAS basé sur Sia"
 
 - id: apps_siacluster
-  translation: "Data farm monitoring and management tool for Sia" # TODO: translate
+  translation: "Observation de fermes de données et outils de gestion pour Sia"
 
 - id: apps_gnomeshell
-  translation: "Sia Cloud Storage Extension for GNOME Shell" # TODO: translate
+  translation: "Extension de stockage Sia Cloud pour GNOME Shell"
 
 - id: apps_siapulse
-  translation: "Analytics tool for Sia" # TODO: translate
+  translation: "Outil d'analyse pour Sia"
 
 # URL: /faq.html
 ### header ###
@@ -553,13 +553,13 @@
 
 ### store ###
 - id: getstarted_storeiconh
-  translation: "Magasin" # TODO: i18n: is this translation correct? It seems to be the wrong translation of store (this translation seems to mean shop, not storage)
+  translation: "Stockage"
 
 - id: getstarted_storeiconp
-  translation: "Je veux utiliser Sia pour stocker mes données" # TODO: i18n: update translation
+  translation: "Je veux utiliser Sia pour stocker mes données"
 
 - id: getstarted_storeh
-  translation: "Emmagasiner mes Siacoins" # TODO: i18n: update translation
+  translation: "Stocker vos fichiers"
 
 - id: getstarted_storestep1
   translation: "Télécharger <a href=\"../apps/#ui\">Sia-UI</a>"
@@ -568,39 +568,42 @@
   translation: "Obtenez <a href=\"../get-siacoin\">Siacoin</a>"
 
 - id: getstarted_storestep3
-  translation: "Stockez vos fichiers" # TODO: i18n: update translation
+  translation: "Stockez vos fichiers"
+  
+- id: getstarted_storestep4
+  translation: "Suivez le <a href=\"https://blog.sia.tech/getting-started-with-private-decentralized-cloud-storage-c9565dc8c854\">guide sur le stockage de fichiers</a>"
 
 ### farm ###
 - id: getstarted_farmiconh
-  translation: "Cultiver" # TODO: update translation
+  translation: "Hébergement"
 
 - id: getstarted_farmiconp
-  translation: "Je veux cultiver mon espace de stockage pour des Siacoins" # TODO: update translation
+  translation: "Je veux héberger des données contre des Siacoins"
 
 - id: getstarted_farmh
-  translation: "Cultivez des Siacoins" # TODO: update translation
+  translation: "Percevez des Siacoins"
 
 - id: getstarted_farmstep1
   translation: "Télécharger <a href=\"../apps/#ui\">Sia-UI</a>"
 
 - id: getstarted_farmstep2
-  translation: "Créez une offre de stockage" # TODO: update translation
+  translation: "Créer une offre de stockage"
 
 - id: getstarted_farmstep3
-  translation: "Obtenez Siacoin avec des contrats de fichiers" # TODO: update translation
+  translation: "Obtenez des Siacoins avec des contrats d'hébergement"
 
 - id: getstarted_farmstep4
-  translation: "Follow the <a href=\"https://blog.sia.tech/how-to-run-a-host-on-sia-2159ebc4725\">hosting guide</a>" # TODO: translate this
+  translation: "Suivez le <a href=\"https://blog.sia.tech/how-to-run-a-host-on-sia-2159ebc4725\">guide sur l'hébergement</a>"
 
 ### mine ###
 - id: getstarted_mineiconh
   translation: "Miner"
 
 - id: getstarted_mineiconp
-  translation: "Je veux miner des SiaCoins et sécuriser le blockchain" # TODO: update translation
+  translation: "Je veux miner des SiaCoins pour sécuriser la Blockchain"
 
 - id: getstarted_mineh
-  translation: "Pour Miner des Siacoin" # TODO: update translation
+  translation: "Pour miner des Siacoins"
 
 - id: getstarted_minestep1
   translation: "Télécharger <a href=\"../apps/#miner\">Sia Miner</a>"
@@ -613,25 +616,25 @@
 
 ### develop ###
 - id: getstarted_developiconh
-  translation: "Développer" # TODO: update translation
+  translation: "Développer"
 
 - id: getstarted_developiconp
-  translation: "Je veux utiliser Sia pour mes applications" # TODO: update translation
+  translation: "Je veux utiliser Sia dans mes applications"
 
 - id: getstarted_developh
-  translation: "Pour Développer sur Siacoin" # TODO: update translation
+  translation: "Pour développer avec Sia"
 
 - id: getstarted_developstep1
-  translation: "Joignez-vous à notre <a href=\"../apps/#daemon\">Sia Daemon</a>" # TODO: update translation
+  translation: "Utilisez notre <a href=\"../apps/#daemon\">Daemon Sia</a>"
 
 - id: getstarted_developstep2
   translation: "Obtenez <a href=\"../get-siacoin\">Siacoin</a>"
 
 - id: getstarted_developstep3
-  translation: "Consultez notre <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">documentation</a>" # TODO: update translation
+  translation: "Consultez la <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">documentation</a>"
 
 - id: getstarted_developstep4
-  translation: "Utilisez Sia pour vos applications" # TODO: update translation
+  translation: "Utilisez Sia dans vos applications"
 
 - id: getstarted_developstep5
-  translation: "Use Sia as your storage backend" # TODO: update translation
+  translation: "Utilisez Sia comme votre serveur de stockage"
